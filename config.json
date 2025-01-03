@@ -3,19 +3,6 @@
     "subTitle":"这个人很懒什么也没有留下喵～",
     "avatarUrl":"https://avatars.githubusercontent.com/u/193340716?v=4",
     "GMEEK_VERSION":"last"
-    {
-    "backgroundImage": "https://amashiro.com/wp-content/uploads/2021/12/09.png"
-}
-    import json
-
-def load_config(config_file):
-    with open(config_file, 'r') as file:
-        config = json.load(file)
-    return config
-
-# 读取配置文件
-config = load_config('background_config.json')
-
-# 打印背景图片的URL
-print("背景图片的URL是:", config['backgroundImage'])           
+     <div style="background-image: url('https://amashiro.com/wp-content/uploads/2021/12/09.png'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+          
 }
