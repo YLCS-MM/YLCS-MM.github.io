@@ -78,6 +78,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ecf0e042-763d-4601-ab25-effad8d2e92f"><img src="https://github.com/user-attachments/assets/ecf0e042-763d-4601-ab25-effad8d2e92f" alt="09" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
 </div>
     <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="http://blog.ylcsmm.us.kg">成霜喵喵的小窝</a></div>
 <div id="footer2"><span id="filingNum"><a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20023628号</a> • </span>
@@ -134,6 +137,41 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 
 
 
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","YLCS-MM/YLCS-MM.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
 
 
 
