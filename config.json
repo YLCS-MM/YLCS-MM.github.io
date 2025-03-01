@@ -6,7 +6,6 @@
     "homeUrl":"http://blog.ylcsmm.us.kg",
     "faviconUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "email":"15873505918@163.com",
-    "startSite":"01/03/2025",
     "filingNum":"浙ICP备20023628号",
     "onePageListNum":15,
     "singlePage":["about"],
@@ -30,5 +29,6 @@
     "ogImage":"https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg",
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "needComment":1,
-    "style": "<style>body {background-image: url('https://tse4-mm.cn.bing.net/th/id/OIP-C.AVAkySABFCzsySQvxV_YBgHaHa?dpr=3&pid=ImgDetMain') !important;}</style>"
+    "style": "<style>body {background-image: url('https://haowallpaper.com/link/common/file/previewFileImg/15063058839014720') !important;}</style>",
+    "style": "<style>#runtime_span {margin: 10px 0;}</style><script>function show_runtime(){window.setTimeout(show_runtime,1000);var X=new Date('01/03/2025 00:00:00'),Y=new Date(),T=Y-X,M=864e5,a=T/M,A=Math.floor(a),b=24*(a-A),B=Math.floor(b),c=60*(b-B),C=Math.floor(c),D=Math.floor(60*(c-C));document.getElementById('runtime_span').innerHTML='本站已运行：'+A+'天'+B+'小时'+C+'分'+D+'秒';}show_runtime();</script>"
 }
