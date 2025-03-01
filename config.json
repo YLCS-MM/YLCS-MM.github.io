@@ -6,7 +6,7 @@
     "homeUrl":"http://blog.ylcsmm.us.kg",
     "faviconUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "email":"15873505918@163.com",
-    "startSite": "2025-03-01 00:00:00", 
+    "startSite":"01/03/2025", 
     "filingNum":"浙ICP备20023628号",
     "onePageListNum":15,
     "singlePage":["about"],
@@ -30,6 +30,6 @@
     "ogImage":"https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg",
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "needComment":1,
-    "style": "<style>body {background-image: url('https://haowallpaper.com/link/common/file/previewFileImg/15063058839014720') !important;}</style>"
+    "style": "<style>body {background-image: url('https://amashiro.com/wp-content/uploads/2021/12/09.png') !important;}</style>"
     
 }
